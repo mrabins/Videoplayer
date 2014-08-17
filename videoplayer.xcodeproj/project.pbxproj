@@ -14,7 +14,6 @@
 		13277A811989FC7600BAA8B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13277A801989FC7600BAA8B5 /* main.m */; };
 		13277A851989FC7600BAA8B5 /* MRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13277A841989FC7600BAA8B5 /* MRAppDelegate.m */; };
 		13277A881989FC7600BAA8B5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13277A861989FC7600BAA8B5 /* Main_iPhone.storyboard */; };
-		13277A8B1989FC7600BAA8B5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13277A891989FC7600BAA8B5 /* Main_iPad.storyboard */; };
 		13277A8E1989FC7600BAA8B5 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13277A8D1989FC7600BAA8B5 /* MRViewController.m */; };
 		13277A901989FC7600BAA8B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13277A8F1989FC7600BAA8B5 /* Images.xcassets */; };
 		13277A971989FC7700BAA8B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13277A961989FC7700BAA8B5 /* XCTest.framework */; };
@@ -22,6 +21,12 @@
 		13277A991989FC7700BAA8B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13277A781989FC7600BAA8B5 /* UIKit.framework */; };
 		13277AA11989FC7700BAA8B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13277A9F1989FC7700BAA8B5 /* InfoPlist.strings */; };
 		13277AA31989FC7700BAA8B5 /* videoplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13277AA21989FC7700BAA8B5 /* videoplayerTests.m */; };
+		13277B1B198DE4C700BAA8B5 /* MRImagesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13277B1A198DE4C700BAA8B5 /* MRImagesCollectionViewController.m */; };
+		13277B1E198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13277B1D198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.m */; };
+		13BF04491990169300D2C260 /* MRPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF04481990169300D2C260 /* MRPlayerViewController.m */; };
+		13ECB26B19903747003FAFAE /* horse.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 13ECB26A19903747003FAFAE /* horse.jpeg */; };
+		13ECB273199043FB003FAFAE /* MRDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ECB272199043FB003FAFAE /* MRDetailsViewController.m */; };
+		7ACB157E1EE845EB8B07F372 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6B346163B41BE8B3BB34B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00144A2EEBF0478A88C47908 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		13277A711989FC7600BAA8B5 /* videoplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13277A741989FC7600BAA8B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13277A761989FC7600BAA8B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +52,6 @@
 		13277A831989FC7600BAA8B5 /* MRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegate.h; sourceTree = "<group>"; };
 		13277A841989FC7600BAA8B5 /* MRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegate.m; sourceTree = "<group>"; };
 		13277A871989FC7600BAA8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		13277A8A1989FC7600BAA8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		13277A8C1989FC7600BAA8B5 /* MRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
 		13277A8D1989FC7600BAA8B5 /* MRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
 		13277A8F1989FC7600BAA8B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +60,16 @@
 		13277A9E1989FC7700BAA8B5 /* videoplayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "videoplayerTests-Info.plist"; sourceTree = "<group>"; };
 		13277AA01989FC7700BAA8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13277AA21989FC7700BAA8B5 /* videoplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoplayerTests.m; sourceTree = "<group>"; };
+		13277B19198DE4C700BAA8B5 /* MRImagesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRImagesCollectionViewController.h; sourceTree = "<group>"; };
+		13277B1A198DE4C700BAA8B5 /* MRImagesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRImagesCollectionViewController.m; sourceTree = "<group>"; };
+		13277B1C198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRImagesCollectionViewCell.h; sourceTree = "<group>"; };
+		13277B1D198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRImagesCollectionViewCell.m; sourceTree = "<group>"; };
+		13BF04471990169300D2C260 /* MRPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPlayerViewController.h; sourceTree = "<group>"; };
+		13BF04481990169300D2C260 /* MRPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPlayerViewController.m; sourceTree = "<group>"; };
+		13ECB26A19903747003FAFAE /* horse.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horse.jpeg; sourceTree = "<group>"; };
+		13ECB271199043FB003FAFAE /* MRDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDetailsViewController.h; sourceTree = "<group>"; };
+		13ECB272199043FB003FAFAE /* MRDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDetailsViewController.m; sourceTree = "<group>"; };
+		50D6B346163B41BE8B3BB34B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,7 @@
 				13277A771989FC7600BAA8B5 /* CoreGraphics.framework in Frameworks */,
 				13277A791989FC7600BAA8B5 /* UIKit.framework in Frameworks */,
 				13277A751989FC7600BAA8B5 /* Foundation.framework in Frameworks */,
+				7ACB157E1EE845EB8B07F372 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,7 @@
 				13277A9C1989FC7700BAA8B5 /* videoplayerTests */,
 				13277A731989FC7600BAA8B5 /* Frameworks */,
 				13277A721989FC7600BAA8B5 /* Products */,
+				00144A2EEBF0478A88C47908 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +124,7 @@
 				13277A761989FC7600BAA8B5 /* CoreGraphics.framework */,
 				13277A781989FC7600BAA8B5 /* UIKit.framework */,
 				13277A961989FC7700BAA8B5 /* XCTest.framework */,
+				50D6B346163B41BE8B3BB34B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,9 +135,7 @@
 				13277A831989FC7600BAA8B5 /* MRAppDelegate.h */,
 				13277A841989FC7600BAA8B5 /* MRAppDelegate.m */,
 				13277A861989FC7600BAA8B5 /* Main_iPhone.storyboard */,
-				13277A891989FC7600BAA8B5 /* Main_iPad.storyboard */,
-				13277A8C1989FC7600BAA8B5 /* MRViewController.h */,
-				13277A8D1989FC7600BAA8B5 /* MRViewController.m */,
+				13F913AF198F5D2000134441 /* View Controllers */,
 				13277A8F1989FC7600BAA8B5 /* Images.xcassets */,
 				13277A7B1989FC7600BAA8B5 /* Supporting Files */,
 			);
@@ -129,6 +145,7 @@
 		13277A7B1989FC7600BAA8B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13ECB26A19903747003FAFAE /* horse.jpeg */,
 				13277A7C1989FC7600BAA8B5 /* videoplayer-Info.plist */,
 				13277A7D1989FC7600BAA8B5 /* InfoPlist.strings */,
 				13277A801989FC7600BAA8B5 /* main.m */,
@@ -155,6 +172,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		13F913AF198F5D2000134441 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				13BF04471990169300D2C260 /* MRPlayerViewController.h */,
+				13BF04481990169300D2C260 /* MRPlayerViewController.m */,
+				13ECB271199043FB003FAFAE /* MRDetailsViewController.h */,
+				13ECB272199043FB003FAFAE /* MRDetailsViewController.m */,
+				13277B1C198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.h */,
+				13277B1D198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.m */,
+				13277B19198DE4C700BAA8B5 /* MRImagesCollectionViewController.h */,
+				13277B1A198DE4C700BAA8B5 /* MRImagesCollectionViewController.m */,
+				13277A8C1989FC7600BAA8B5 /* MRViewController.h */,
+				13277A8D1989FC7600BAA8B5 /* MRViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13277AA61989FC7700BAA8B5 /* Build configuration list for PBXNativeTarget "videoplayer" */;
 			buildPhases = (
+				B2D26F6D5B454168BF09A14A /* Check Pods Manifest.lock */,
 				13277A6D1989FC7600BAA8B5 /* Sources */,
 				13277A6E1989FC7600BAA8B5 /* Frameworks */,
 				13277A6F1989FC7600BAA8B5 /* Resources */,
+				576A339799EF4023BA663612 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +239,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = edu.self.edu;
 				TargetAttributes = {
+					13277A701989FC7600BAA8B5 = {
+						DevelopmentTeam = E59D2Z958U;
+					};
 					13277A941989FC7700BAA8B5 = {
 						TestTargetID = 13277A701989FC7600BAA8B5;
 					};
@@ -232,10 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13277A8B1989FC7600BAA8B5 /* Main_iPad.storyboard in Resources */,
 				13277A901989FC7600BAA8B5 /* Images.xcassets in Resources */,
 				13277A881989FC7600BAA8B5 /* Main_iPhone.storyboard in Resources */,
 				13277A7F1989FC7600BAA8B5 /* InfoPlist.strings in Resources */,
+				13ECB26B19903747003FAFAE /* horse.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +288,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		576A339799EF4023BA663612 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D26F6D5B454168BF09A14A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		13277A6D1989FC7600BAA8B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				13277A811989FC7600BAA8B5 /* main.m in Sources */,
+				13277B1B198DE4C700BAA8B5 /* MRImagesCollectionViewController.m in Sources */,
 				13277A8E1989FC7600BAA8B5 /* MRViewController.m in Sources */,
 				13277A851989FC7600BAA8B5 /* MRAppDelegate.m in Sources */,
+				13BF04491990169300D2C260 /* MRPlayerViewController.m in Sources */,
+				13ECB273199043FB003FAFAE /* MRDetailsViewController.m in Sources */,
+				13277B1E198DEA4C00BAA8B5 /* MRImagesCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +369,6 @@
 				13277A871989FC7600BAA8B5 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		13277A891989FC7600BAA8B5 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13277A8A1989FC7600BAA8B5 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		13277A9F1989FC7700BAA8B5 /* InfoPlist.strings */ = {
@@ -388,26 +456,34 @@
 		};
 		13277AA71989FC7700BAA8B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00144A2EEBF0478A88C47908 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "videoplayer/videoplayer-Prefix.pch";
 				INFOPLIST_FILE = "videoplayer/videoplayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		13277AA81989FC7700BAA8B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00144A2EEBF0478A88C47908 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "videoplayer/videoplayer-Prefix.pch";
 				INFOPLIST_FILE = "videoplayer/videoplayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +547,7 @@
 				13277AA81989FC7700BAA8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13277AA91989FC7700BAA8B5 /* Build configuration list for PBXNativeTarget "videoplayerTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +556,7 @@
 				13277AAB1989FC7700BAA8B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

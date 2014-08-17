@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BCOVPlayerSDK.h>
 
-@interface MRPlayerViewController : UIViewController
+@interface MRPlayerViewController : UIViewController <BCOVPlaybackControllerDelegate>
+
+@property (strong,nonatomic)id<BCOVPlaybackController> controller;
 
 @end

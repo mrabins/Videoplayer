@@ -7,6 +7,7 @@
 //
 
 #import "MRImagesCollectionViewCell.h"
+#define IMAGEVIEW_BORDER_LENGTH 5
 
 @implementation MRImagesCollectionViewCell
 
@@ -15,17 +16,46 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        [self setup];
     }
     return self;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(id)initWithCoder:(NSCoder *)aDecoder
 {
-    // Drawing code
+    self = [super initWithCoder:aDecoder];
+    
+    if(self){
+        [self setup];
+    }
+    return self;
 }
-*/
+//Sets up the image view for the seconnd view controller
+-(void)setup
+{
+    self.imageView = [[UIImageView alloc] initWithFrame:CGRectInset(self.bounds, IMAGEVIEW_BORDER_LENGTH, IMAGEVIEW_BORDER_LENGTH)];
+    [self.contentView addSubview:self.imageView];
+
+}
+
+
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+     if([segue.identifier isEqualToString:@"Details Segue"]){
+         if([segue.destinationViewController isKindOfClass:[UITableViewController class]]){
+         /*    NSIndexPath *path = [self imageView indexPathForSelectedRow];
+             
+             MRDetailsViewController *targetViewController = segue.destinationViewController;
+             targetViewController = [path.row];*/
+         }
+     }
+ }
+
+
+
+
 
 @end
+         

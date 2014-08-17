@@ -10,4 +10,8 @@
 
 @interface MRImagesCollectionViewCell : UICollectionViewCell
 
+//Property for the Image view in the second view controller
+@property (strong,nonatomic) UIImageView *imageView;
+
+
 @end

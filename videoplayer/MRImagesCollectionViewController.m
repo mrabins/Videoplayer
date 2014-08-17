@@ -7,6 +7,7 @@
 //
 
 #import "MRImagesCollectionViewController.h"
+#import "MRImagesCollectionViewCell.h"
 
 @interface MRImagesCollectionViewController ()
 
@@ -27,6 +28,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,15 +37,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+# pragma mark - UICollectionViewDataSource
+// Method for the images on the second view controller
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    MRImagesCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"photo" forIndexPath:indexPath];
+    cell.backgroundColor = [UIColor whiteColor];
+    cell.imageView.image = [UIImage imageNamed:@"horse.jpeg"];
+    
+    return cell;
+    
+
 }
-*/
+//Method to return the 8 thumb nails on the second view controller
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return 8;
+}
+
 
 @end

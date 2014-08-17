@@ -7,12 +7,19 @@
 //
 
 #import "MRAppDelegate.h"
+//import "MRVideoViewController.h"
 
 @implementation MRAppDelegate
+
+/* @synthesize videoWindow;
+@synthesize tabBarController; */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // videoWindow.rootViewController = tabBarController;
+    //[videoWindow makeKeyAndVisible];
+    
     return YES;
 }
 							
@@ -31,6 +38,12 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+   /* MRVideoViewController *selectedViewController = (MRVideoViewController *)
+    tabBarController.selectedViewController;
+    if([selectedViewController respondsToSelector:@selector(viewWillEnterForeground)])
+    {
+        [selectedViewController viewWillEnterForeground];
+    } */
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
